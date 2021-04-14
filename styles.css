@@ -1,0 +1,76 @@
+/* Fix My Divs!!! 
+div,img{
+    border: dashed 1px gray;
+    padding:1px;
+}
+.container {
+    border: solid 1px green;
+    padding:1px;
+}
+.col, .col-md-2, .col-md-3, .col-md-4{
+    border: solid 1px rgb(4, 0, 255);
+    padding:1px;
+}
+.row {
+    border: solid 1px red;
+    padding:1px;
+} */
+
+body {
+  font-family: "Open Sans", sans-serif;   
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #8360c3, #6f6fcf, #597cd7, #4088dc, #2593de, #009cdd, #00a4da, #00abd6, #00b2ce, #00b8be, #00bcaa, #2ebf91);
+} 
+
+.navbar {
+  background-color: #2ebf91;
+  font-weight: bold;
+  position: sticky;
+}
+
+.site-footer {
+  background-image: linear-gradient(to bottom, #597cd7, #4088dc, #2593de, #009cdd, #00a4da, #00abd6, #00b2ce, #00b8be, #00bcaa, #2ebf91);
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lobster", cursive; 
+}
+
+.boxStyle {
+   border: solid #00a4da;
+   margin: 20px 5px;
+   padding: 10px;
+   border-radius: 7px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00a4da;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
